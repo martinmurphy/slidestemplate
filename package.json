@@ -1,0 +1,23 @@
+{
+  "name": "slidestemplate",
+  "version": "1.0.0",
+  "description": "Presentation: Slides Template",
+  "main": "index.js",
+  "scripts": {
+    "presentation": "reveal-md slides.md",
+    "generate": "reveal-md slides.md --static docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinmurphy/slidestemplate.git"
+  },
+  "author": "Martin Murphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinmurphy/slidestemplate/issues"
+  },
+  "homepage": "https://github.com/martinmurphy/slidestemplate#readme",
+  "devDependencies": {
+    "reveal-md": "^0.4.2"
+  }
+}
